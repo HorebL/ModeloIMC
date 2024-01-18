@@ -1,0 +1,130 @@
+:root {
+    --primary-color: rgb(161, 241, 152);
+    --primary-color-darker: rgb(6, 1, 26);
+
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0px;
+
+
+
+}
+
+h1 {
+    background-color: yellow;
+    padding: 1rem;
+    text-align: center;
+    color: rgb(18, 3, 55);
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+    border-radius: 10px;
+}
+
+h5 {
+    text-align: left;
+    color: rgb(18, 3, 55);
+    font-size: 20px;
+    font-weight: bold;
+    column-span: all;
+}
+
+
+body {
+    margin: 10 auto;
+    padding: 20px;
+    font-size: 1.0em;
+    line-height: 0.9em;
+    font-family: 'Open sans', sans-serif;
+   background-color: #5988df;
+
+}
+
+
+.wrapper {
+    line-height: 1.3em;
+    display: grid;
+    grid-template-columns: 200px 200px;
+    background-color: aquamarine;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+form input,
+form button,
+form label {
+    display: block;
+    margin: 10px;
+    width: 40%;
+    height: 20px;
+    position: center;
+    padding: 10px;
+    top: 2px;
+    left: 0px;
+
+}
+
+form input {
+    font-size: 20px;
+    height: 40px;
+    padding: 0 20px;
+    background-color: #c4bebebd;
+    font-size: 18px;
+    font-weight: 100px;
+}
+
+form input:focus {
+    outline: 2px solid;
+    color: red;
+}
+
+form button {
+    height: 40px;
+    border: none;
+    background-color: #12e220;
+    color: #0c0c0c;
+    font-size: 20px;
+    font-weight: 800px;
+    cursor: pointer;
+    margin-top: 30px;
+    border-radius: 10px;
+
+}
+
+form button:hover {
+    background: var(--primary-color- darker);
+
+.paragrafo-resultado,
+.bad {
+    background-color: blue;
+    padding: 20px 20px;
+    text-decoration: dotted;
+    font: 1em sans-serif;;
+    color: rgb(223, 235, 116);
+
+}
+
+.bad {
+    background: #5988df;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+
+form button:active {
+    background: red;
+}
